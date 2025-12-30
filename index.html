@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GenTranslate</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body>
+
+<button class="mode-toggle" onclick="toggleMode()">🌙 Dark Mode</button>
+
+<div class="layout">
+
+  <aside class="slang-list">
+    <h3>Available Slang</h3>
+    <ul id="slangList"></ul>
+  </aside>
+
+  <main class="app">
+    <h1>GenTranslate</h1>
+    <p class="subtitle">Translate Gen Z & Alpha slang into clear language</p>
+
+    <input
+      type="text"
+      id="slangInput"
+      placeholder="Enter slang (e.g. rizz)"
+    />
+
+    <button onclick="translateSlang()">Translate</button>
+
+    <div id="result"></div>
+  </main>
+
+</div>
+
+<script src="script.js"></script>
+
+<a
+  href="https://discord.com/users/1084151267527507988"
+  target="_blank"
+  class="discord-link"
+>
+  💬 Discord
+</a>
+
+<a
+  href="https://forms.gle/kPGR7ZmFweHMUm9G9"
+  target="_blank"
+  class="suggest-link"
+>
+  ➕ Suggest Slang
+</a>
+
+<div class="credit">
+  Made by 0psc8r
+</div>
+<img src="sticker.png" class="sticker right" alt="Sticker right">
+<img src="sticker2.png" class="sticker left" alt="Sticker left">
+
+<button class="update-log-btn" onclick="toggleUpdateLog()">
+  📜 Update Log
+</button>
+<div id="updateLog" class="update-log hidden">
+  <h3>Update Log</h3>
+  <ul>
+    <li><strong>v1.3</strong> – Added new slang + scrollbar improvements</li>
+    <li><strong>v1.2</strong> – Dark mode + stickers</li>
+    <li><strong>v1.1</strong> – Sidebar with available slang</li>
+    <li><strong>v1.0</strong> – Initial GenTranslate release</li>
+  </ul>
+</div>
+
+
+</body>
+</html>
+  </ul>
+</div>
+
+
+</body>
+</html>
